@@ -45,3 +45,7 @@ class Sala:
     def mostrar_reservas(self):
         for asiento,reserva in self.reservas.items():
             print(f"Asiento{asiento} : {reserva}")
+#--------------------------------------------------------------------------------------------
+class Cine(Sala):
+    def __init__(nombre,Sala):
+        self.nombre = nombre
